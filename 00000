@@ -1,0 +1,29 @@
+#include "pch.h" 
+ #include "CppUnitTest.h" 
+ #include "F:\C++project\homework\test.h" 
+   using namespace Microsoft::VisualStudio::CppUnitTestFramework; 
+   namespace UnitTest1 
+ { 
+ TEST_CLASS(UnitTest1) 
+ { 
+ public: 
+ TEST_METHOD(TestMethod1) 
+ { 
+ int n = 4； 
+ int max = 10; 
+ int op = 3; 
+ int bark = 1； 
+ int fl = 1； 
+ Assert::AreEqual(0, bpri(demical, Max)); 
+ } 
+ TEST_METHOD(TestMethod2) 
+ { 
+ int n = 1; 
+ int Max = 100; 
+ int op = 3; 
+ int bark = 0； 
+ int fl = 2； 
+ Assert::AreEqual(0, bpri(demical, Max)); 
+ } 
+ }; 
+ } 
